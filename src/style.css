@@ -1,116 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;400;500;600;700;800&family=Lato&family=Poppins:wght@100;300;400;500;600;700&family=Roboto+Mono:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
-:root{
-    --fs-clr:#E5E5E5;
-    --fs-tBody:#4D194D;
-    --fs-tHead:#3E1F47;
-}
-body{
-    padding: 0;
-    margin: 0;
-    background-color: hsl(266, 33%, 20%);
-}
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
+
+:root {
+  --fs-clr: #e5e5e5;
+  --fs-tBody: #4d194d;
+  --fs-tHead: #3e1f47;
 }
 
-svg{
-    height: 32px;
-    width: auto;
-    fill: var(--fs-clr);
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(266, 33%, 20%);
 }
-header{
-    background-color: hsl(266, 33%, 20%);
+
+a {
+  text-decoration: none;
 }
-#navigation{
-    display: none;
+
+ul {
+  list-style: none;
 }
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0;
-    grid-gap: 1rem;
+
+svg {
+  height: 32px;
+  width: auto;
+  fill: var(--fs-clr);
 }
-table{
-    border-collapse: collapse;
-    width: 50%;
-    border: 1px solid var(--fs-clr);
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
+
+header {
+  background-color: hsl(266, 33%, 20%);
 }
-thead{
-    background-color:var(--fs-tHead);
+
+#navigation {
+  display: none;
 }
-tr{
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    color: var(--fs-clr);
-    height: 48px;
-    margin: 8px;
-    display: flex;
-    align-items: center;
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0;
+  grid-gap: 1rem;
+  margin-top: 100px;
 }
-tbody{
-    background-color: var(--fs-tBody);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid var(--fs-tHead);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
-#addNew{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    border: 1px solid var(--fs-clr);
-    background-color: var(--fs-tBody);
-    height: 300px;
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: var(--fs-clr);
+  height: 48px;
+  margin: 8px;
+  align-items: center;
 }
-#addNew h2{
-    text-align: center;
-    color: var(--fs-clr);
-    font-family: 'Roboto', sans-serif;
+
+tbody {
+  background-color: var(--fs-tBody);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
 }
-form{
-    display: flex;
-    flex-direction: column;
+
+#addNew {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid var(--fs-clr);
+  background-color: var(--fs-tBody);
+  height: 300px;
 }
-form input{
-    margin: 12px 0;
-    height: 38px;
+
+#addNew h2 {
+  text-align: center;
+  color: var(--fs-clr);
+  font-family: 'Roboto', sans-serif;
 }
-form ::placeholder{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
+
+form {
+  display: flex;
+  flex-direction: column;
 }
-form button{
-    height: 48px;
-    border: none;
-    cursor: pointer;
-    font-family: 'Poppins',sans-serif;
-    font-weight: 600;
+
+form input {
+  margin: 12px 0;
+  height: 38px;
 }
-form button :hover{
-    background-color: var(--fs-tHead);
-    color: var(--fs-tBody);
+
+form ::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
-.special{
-    border: none;
-    background: var(--fs-tBody);
+
+form button {
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
-#leaderboard{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    border: 1px solid var(--fs-clr);
-    background-color: var(--fs-tBody);
-    height: fit-content;
+
+form button :hover {
+  background-color: var(--fs-tHead);
+  color: var(--fs-tBody);
 }
-#leaderboard h1{
-    text-align: center;
-    color: var(--fs-clr);
-    font-family: 'Roboto', sans-serif;
+
+.special {
+  border: none;
+  background: var(--fs-tBody);
+  padding: 1rem;
+}
+
+#leaderboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid var(--fs-clr);
+  background-color: var(--fs-tBody);
+  height: 450px;
+}
+
+#leaderboard h1 {
+  text-align: center;
+  color: var(--fs-clr);
+  font-family: 'Roboto', sans-serif;
+}
+
+#refreash {
+  fill: var(--fs-clr);
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 58px;
+  background-color: hsl(266, 33%, 20%);
 }
