@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;400;500;600;700;800&family=Lato&family=Poppins:wght@100;300;400;500;600;700&family=Roboto+Mono:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 :root{
-    
+    --fs-clr:#E5E5E5;
+    --fs-tBody:#4D194D;
+    --fs-tHead:#3E1F47;
 }
 body{
     padding: 0;
@@ -15,6 +17,31 @@ ul{
 }
 
 svg{
-    height: 8px;
+    height: 32px;
     width: auto;
+    fill: var(--fs-clr);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0;
+    grid-gap: 1rem;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid var(--fs-clr);
+}
+thead{
+    background-color:var(--fs-tHead);
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+tbody{
+    background-color: var(--fs-tBody);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
