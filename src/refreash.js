@@ -1,3 +1,3 @@
-export default function refreash(){
-    console.log('Boom!')
+export default function refreash() {
+  console.log('Boom!');
 }

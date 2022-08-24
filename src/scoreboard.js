@@ -1,4 +1,5 @@
 import refreash from './refreash.js';
+
 export default function showleaderboard() {
   const leadContainer = document.getElementById('leaderboard');
   const intro = document.createElement('article');
