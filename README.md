@@ -1,56 +1,52 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Leaderboard App!!
 
-> Description the project.
+> This an Awesome Leaderboard App Created using the Leaderboard API!
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS , JavaScript
+- SCSS
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
 
 ### Install
+ - To Install, run the following command:
+``` npx install  ```
+Then run the following command
+``` npm run Build ```
 
 ### Usage
+    - To add a Task , User the Input box and type in the task.
+    - To delete a Task , Double click on the task and click the Delete Button.
+    -To Edit A Task, Double click on the task and an in built editor will apear :).
+    - TO Remove ALl the completed tasks , Click the Clear Completed Button.
 
 ### Run tests
+    run test using ``` npx hint . ``` in the terminal.
+    run tests using ``` npx eslint . ``` in the terminal.
 
-### Deployment
 
 
+# Authors
 
-## Authors
+👤 **Syed Shuja Hussain (He/Him)**
 
-👤 **Author1**
+- GitHub: [@shuja-shah](https://github.com/shuja-shah)
+- Twitter : [@SyedShujaHussa3](https://twitter.com/SyedShujaHussa3)
+- LinkedIn :[@syedshujahussa](https://www.linkedin.com/in/syedshujahussa/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +60,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The Awesome Teamwork! and Microverse!
 
 ## 📝 License
 

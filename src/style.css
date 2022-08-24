@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;400;500;600;700;800&family=Lato&family=Poppins:wght@100;300;400;500;600;700&family=Roboto+Mono:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+  --fs-clr: #e5e5e5;
+  --fs-tBody: #4d194d;
+  --fs-tHead: #3e1f47;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(266, 33%, 20%);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+svg {
+  height: 32px;
+  width: auto;
+  fill: var(--fs-clr);
+}
+
+header {
+  background-color: hsl(266, 33%, 20%);
+}
+
+#navigation {
+  display: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0;
+  grid-gap: 1rem;
+  margin-top: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid var(--fs-tHead);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: var(--fs-clr);
+  height: 48px;
+  margin: 8px;
+  align-items: center;
+}
+
+tbody {
+  background-color: var(--fs-tBody);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#addNew {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid var(--fs-clr);
+  background-color: var(--fs-tBody);
+  height: 300px;
+}
+
+#addNew h2 {
+  text-align: center;
+  color: var(--fs-clr);
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 12px 0;
+  height: 38px;
+}
+
+form ::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+form button {
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+form button :hover {
+  background-color: var(--fs-tHead);
+  color: var(--fs-tBody);
+}
+
+.special {
+  border: none;
+  background: var(--fs-tBody);
+  padding: 1rem;
+}
+
+#leaderboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid var(--fs-clr);
+  background-color: var(--fs-tBody);
+  height: 450px;
+}
+
+#leaderboard h1 {
+  text-align: center;
+  color: var(--fs-clr);
+  font-family: 'Roboto', sans-serif;
+}
+
+#refreash {
+  fill: var(--fs-clr);
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 58px;
+  background-color: hsl(266, 33%, 20%);
+}
