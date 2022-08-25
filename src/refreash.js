@@ -1,3 +1,4 @@
-export default function refreash() {
-  console.log('Boom!');
+function refreash() {
+  console.log('I was Hit');
 }
+module.exports = refreash;
