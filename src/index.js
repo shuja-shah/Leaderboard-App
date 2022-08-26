@@ -29,3 +29,7 @@ sumbit.addEventListener('click', (e) => {
   e.preventDefault();
   addTheScores();
 });
+
+const tBody = document.createElement('tBody');
+const leadBody = document.querySelector('table');
+leadBody.appendChild(tBody);
