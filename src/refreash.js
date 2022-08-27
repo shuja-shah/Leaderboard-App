@@ -1,4 +1,4 @@
-async function refreash() {
+const showScores = async () => {
   const req = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/zblSE0KFde5ujWoC9BWc/scores/');
   const response = await req.json();
   const final = response.result;
@@ -13,6 +13,6 @@ async function refreash() {
     tr.appendChild(tdScore);
     tBody.appendChild(tr);
   });
-}
+};
 
-module.exports = refreash;
+module.exports = showScores;

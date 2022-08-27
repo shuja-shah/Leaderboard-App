@@ -1,6 +1,6 @@
 import './style.css';
 import showleaderboard from './scoreboard.js';
-import refreash from './refreash.js';
+import showScores from './refreash.js';
 import addTheScores from './addScores.js';
 
 fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
@@ -21,15 +21,18 @@ showleaderboard();
 const re = document.querySelector('.btn-re');
 re.addEventListener('click', (e) => {
   e.preventDefault();
-  refreash();
+  window.location.reload();
 });
 
 const sumbit = document.getElementById('submit');
 sumbit.addEventListener('click', (e) => {
   e.preventDefault();
   addTheScores();
+  window.location.reload();
 });
 
 const tBody = document.createElement('tBody');
 const leadBody = document.querySelector('table');
 leadBody.appendChild(tBody);
+
+document.addEventListener('DOMContentLoaded', showScores);
