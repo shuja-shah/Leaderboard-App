@@ -140,7 +140,6 @@ form button :hover {
   outline: none;
   cursor: pointer;
   padding: 0;
-
 }
 
 .intro {
@@ -151,7 +150,8 @@ form button :hover {
   height: 58px;
   background-color: hsl(266, 33%, 20%);
 }
-.btn-re{
+
+.btn-re {
   background-color: hsl(266, 33%, 20%);
   border: none;
   outline: none;
