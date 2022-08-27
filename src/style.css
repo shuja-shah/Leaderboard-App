@@ -91,7 +91,8 @@ tbody {
 }
 
 form {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 form input {
@@ -173,7 +174,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0;
-  grid-column-gap: 275px;
+  grid-column-gap: 75px;
 }
 
 .particles {
