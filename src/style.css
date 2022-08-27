@@ -4,6 +4,8 @@
   --fs-clr: #e5e5e5;
   --fs-tBody: #4d194d;
   --fs-tHead: #3e1f47;
+  --clr-primary: #f25551;
+  --clr-text: #feede1;
 }
 
 body {
@@ -67,6 +69,7 @@ tbody {
   background-color: var(--fs-tBody);
   height: 300px;
   width: 500px;
+  margin-top: 200px;
 
 }
 
@@ -91,16 +94,19 @@ form ::placeholder {
 }
 
 form button {
-  height: 48px;
+  background-color: var(--clr-primary);
   border: none;
-  cursor: pointer;
+  color: var(--clr-text);
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  letter-spacing: 0.15px;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  transition: color 0.3s;
 }
 
 form button :hover {
-  background-color: var(--fs-tHead);
-  color: var(--fs-tBody);
+  background-color: #ffd3d3;
+  color: #de3344;
 }
 
 .special {
@@ -115,6 +121,8 @@ form button :hover {
   background-color: var(--fs-tBody);
   height: max-content;
   width: 800px;
+  margin-left: 24px;
+  margin-top: 50px;
 
 }
 
@@ -154,9 +162,29 @@ main{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0;
-  grid-column-gap: 75px;
+  grid-column-gap: 275px;
 }
 .particles{
   position: relative;
   
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
