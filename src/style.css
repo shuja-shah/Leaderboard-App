@@ -47,10 +47,6 @@ header {
   background-color: hsl(266, 33%, 20%);
 }
 
-#navigation {
-  display: none;
-}
-
 table {
   width: 100%;
   border: 1px solid var(--fs-tHead);
