@@ -28,7 +28,6 @@ const sumbit = document.getElementById('submit');
 sumbit.addEventListener('click', (e) => {
   e.preventDefault();
   addTheScores();
-  window.location.reload();
 });
 
 const tBody = document.createElement('tBody');

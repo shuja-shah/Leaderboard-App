@@ -43,11 +43,12 @@ main {
 }
 
 table {
-  border-collapse: collapse;
   width: 100%;
   border: 1px solid var(--fs-tHead);
   font-family: 'Inter', sans-serif;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
 }
 
 tr {
@@ -124,7 +125,7 @@ form button :hover {
   align-items: flex-start;
   border: 1px solid var(--fs-clr);
   background-color: var(--fs-tBody);
-  height: 450px;
+  height: max-content;
 }
 
 #leaderboard h1 {
@@ -135,6 +136,10 @@ form button :hover {
 
 #refreash {
   fill: var(--fs-clr);
+  background-color: #3e1f47;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .intro {
