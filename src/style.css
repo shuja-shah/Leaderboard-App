@@ -22,7 +22,6 @@ ul {
 
 svg {
   height: 32px;
-  width: auto;
   fill: var(--fs-clr);
 }
 
@@ -43,11 +42,12 @@ main {
 }
 
 table {
-  border-collapse: collapse;
   width: 100%;
   border: 1px solid var(--fs-tHead);
   font-family: 'Inter', sans-serif;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
 }
 
 tr {
@@ -124,7 +124,7 @@ form button :hover {
   align-items: flex-start;
   border: 1px solid var(--fs-clr);
   background-color: var(--fs-tBody);
-  height: 450px;
+  height: max-content;
 }
 
 #leaderboard h1 {
@@ -135,6 +135,11 @@ form button :hover {
 
 #refreash {
   fill: var(--fs-clr);
+  background-color: hsl(266, 33%, 20%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 .intro {
@@ -144,4 +149,12 @@ form button :hover {
   width: 100%;
   height: 58px;
   background-color: hsl(266, 33%, 20%);
+}
+
+.btn-re {
+  background-color: hsl(266, 33%, 20%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
 }
