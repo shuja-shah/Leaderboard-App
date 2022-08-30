@@ -4,6 +4,8 @@
 
 > This an Awesome Leaderboard App Created using the Leaderboard API!
 
+#Live Demo
+[click Here](https://shuja-shah.github.io/Leaderboard-App/dist/)
 
 ## Built With
 
